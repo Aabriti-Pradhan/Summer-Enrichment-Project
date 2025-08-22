@@ -1,0 +1,60 @@
+/* Page container */
+.question-set-page {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 20px;
+}
+
+/* List styling */
+.question-set-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 80px;
+  width: 700px;
+  margin-left: -200px;
+}
+
+/* Each question set item */
+.question-set-list li {
+  background-color: #4682A9; /* deep blue for individual item */
+  color: #FFFBDE; /* cream text */
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.question-set-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Title and count */
+.question-set-list li p {
+  margin: 0;
+  font-size: 16px;
+  color: #FFFBDE;
+}
+
+/* Button styling */
+.question-set-list li button {
+  background-color: #FFFBDE; /* cream button */
+  color: #4682A9; /* deep blue text */
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.question-set-list li button:hover {
+  background-color: #749BC2; /* accent blue on hover */
+  color: #FFFBDE;
+}

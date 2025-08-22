@@ -1,0 +1,44 @@
+/* Navbar container */
+nav {
+  background-color: #4682A9; /* deep blue */
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px; /* pill shape */
+  max-width: 900px;
+  margin: 20px auto; /* center horizontally */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Nav links */
+nav a {
+  color: #FFFBDE; /* cream text */
+  text-decoration: none;
+  margin: 0 16px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #91C8E4; /* light blue hover */
+}
+
+/* Logout button styled like email badge */
+nav button {
+  background-color: #FFFBDE; /* cream background */
+  color: #4682A9; /* deep blue text */
+  padding: 8px 16px;
+  border-radius: 40px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav button:hover {
+  background-color: #91C8E4;
+  color: #FFFBDE;
+}

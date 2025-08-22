@@ -1,0 +1,82 @@
+/* Main container */
+.create-questionset-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* Card around the form */
+.create-questionset-card {
+  
+}
+
+/* Form label styling */
+.create-questionset-card label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+  color: #4682A9; /* deep blue */
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Text inputs styling */
+.create-questionset-card input[type="text"] {
+  width: 65%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #749BC2;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+/* Buttons */
+.create-questionset-card button {
+  background-color: #4682A9; /* deep blue */
+  color: #FFFBDE; /* cream */
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.create-questionset-card button:hover {
+  background-color: #749BC2; /* lighter blue hover */
+}
+
+/* Questions container */
+.question-card {
+  background-color: #FFFBDE; /* cream */
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Question text */
+.question-card input:first-child {
+  font-weight: bold;
+  color: #4682A9;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+/* Choices container */
+.choice-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 10px;
+}
+
+/* Choice input styling */
+.choice-item input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 2px solid #749BC2;
+}

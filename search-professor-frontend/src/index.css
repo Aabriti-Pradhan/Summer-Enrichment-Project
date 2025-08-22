@@ -1,0 +1,48 @@
+/* Global page setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FFFBDE; /* cream */
+  color: #4682A9; /* deep blue text */
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Generic container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Centered text */
+.text-center {
+  text-align: center;
+}
+
+/* Buttons (general) */
+button {
+  background-color: #4682A9;
+  color: #FFFBDE;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #749BC2;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #4682A9;
+  margin-bottom: 10px;
+}
